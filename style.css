@@ -27,7 +27,6 @@ table {
 th, td {
     padding: 10px; /* Etwas mehr Platz für besseren Lesekomfort */
     text-align: center;
-    word-wrap: break-word; /* Lange Wörter umbrechen */
     border: 1px solid #ddd; /* Dezente Umrandung für bessere Trennung */
 }
 
