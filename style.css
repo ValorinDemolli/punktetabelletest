@@ -13,9 +13,6 @@ h1 {
     text-align: center;
     margin: 20px 0; /* Abstand oberhalb und unterhalb des Headers */
 }
-.table-wrapper {
-    margin: 0 10px; /* Abstand für mobile Ansichten */
-}
 
 table {
     width: auto; /* Breite der Tabelle anpassen */
