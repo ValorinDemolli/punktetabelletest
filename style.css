@@ -1,0 +1,79 @@
+/* Basis-Styles für den Body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 70px; /* Platz schaffen, damit der Inhalt nicht hinter dem fixierten Menü liegt */
+    margin: 0;
+}
+/* Header-Styles */
+h1 {
+    color: #333;
+    font-size: 2em; /* Angepasste Schriftgröße für besseren Fokus */
+    text-align: center;
+    margin: 20px 0; /* Abstand oberhalb und unterhalb des Headers */
+}
+/* Tabellen-Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px; /* Etwas mehr Platz für besseren Lesekomfort */
+    text-align: center;
+    word-wrap: break-word; /* Lange Wörter umbrechen */
+    border: 1px solid #ddd; /* Dezente Umrandung für bessere Trennung */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Dickere Schrift im Tabellenkopf */
+}
+
+/* Link-Styles */
+a {
+    color: #007BFF; /* Einheitliche Linkfarbe */
+    text-decoration: none; /* Keine Unterstreichung */
+}
+
+a:hover {
+    color: #0056b3; /* Dunklere Farbe beim Hover-Effekt */
+}
+
+/* Navbar-Styles */
+.navbar {
+    background-color: #333; /* Hintergrundfarbe des Menüs */
+    overflow: hidden; /* Verhindert Überlauf von Elementen */
+    position: fixed; /* Macht das Menü oben fixiert */
+    top: 0;
+    width: 100%; /* Menübalken über die volle Breite */
+    z-index: 1000; /* Damit das Menü immer oben bleibt */
+}
+
+.navbar ul {
+    list-style-type: none; /* Entfernt die Punkte der Liste */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox für horizontale Ausrichtung */
+    justify-content: center; /* Zentriert die Elemente */
+    align-items: center; /* Vertikal zentrieren */
+}
+
+.navbar ul li {
+    display: inline-block; /* Block-Level für bessere Kontrolle */
+}
+
+/* Navbar-Link-Styles */
+.navbar ul li a {
+    display: block;
+    color: white; /* Textfarbe des Menüs */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; /* Unterstreichung entfernen */
+    transition: background-color 0.3s ease; /* Weicher Übergang bei Hover */
+}
+
+.navbar ul li a:hover {
+    background-color: #575757; /* Hintergrundfarbe bei Hover */
+}
